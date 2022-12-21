@@ -16,15 +16,6 @@
     <link rel="stylesheet" href="./Css/style.css" />
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main>
@@ -41,9 +32,13 @@
             and our launch deals.
           </p>
         </div>
-        <form action="">
-          <input type="text" value="Email Address" />
-          <button><img src="./images/icon-arrow.svg" alt="" /></button>
+        <form>
+          <input type="email" placeholder="Email Address" class="input" />
+
+          <button type="submit" class="btn">
+            <img src="./images/icon-arrow.svg" alt="" />
+          </button>
+          <label id="label"></label>
         </form>
       </div>
       <div class="box2">
@@ -56,8 +51,10 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a href="https://twitter.com/GAMEL06" target="_blank">Gamel Ayodele</a>.
       </p>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
